@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <title>H5分页</title>
+    <style>
+        *{
+            font-size:16px;
+        }
+        .content{
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            overflow: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+        ul{
+            width:100%;
+        }
+        ul li {
+            padding: 22px;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="content">
+        <ul>
+            <li><span>数据1</span></li>
+            <li><span>数据2</span></li>
+            <li><span>数据3</span></li>
+            <li><span>数据4</span></li>
+            <li><span>数据5</span></li>
+            <li><span>数据6</span></li>
+            <li><span>数据7</span></li>
+            <li><span>数据8</span></li>
+            <li><span>数据9</span></li>
+            <li><span>数据10</span></li>
+        </ul>
+    </section>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/pagelist.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
